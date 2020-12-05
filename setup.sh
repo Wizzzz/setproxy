@@ -4,10 +4,13 @@
 username = 'Asidame'
 password = 'yolololo'
 
-# installing squid
+# installing required library
 sudo apt-get update
-git clone https://github.com/rofl0r/microsocks.git
+sudo apt-get install make -y
+sudo apt-get install gcc -y
 
-# applying config
+# starting socks
+git clone https://github.com/rofl0r/microsocks.git
 cd microsocks
+make
 ./microsocks -p 3129 -u $username - P $password
