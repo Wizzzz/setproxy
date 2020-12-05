@@ -1,11 +1,13 @@
-#!/bin/sh
+#!/bin/bash
+
+# setting proxy authentication
+username = 'Asidame'
+password = 'yolololo'
 
 # installing squid
 sudo apt-get update
-sudo apt-get install squid -y
+git clone https://github.com/rofl0r/microsocks.git
 
 # applying config
-sudo cp squid.conf /etc/squid/squid.conf
-
-# launching squid
-sudo systemctl restart squid
+cd microsocks
+./microsocks -p 3129 -u $username - P $password
