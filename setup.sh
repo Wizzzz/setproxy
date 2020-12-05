@@ -13,4 +13,4 @@ sudo apt-get install gcc -y
 git clone https://github.com/rofl0r/microsocks.git
 cd microsocks
 make
-./microsocks -p 3129 -u $username - P $password
+nohup ./microsocks -p 3129 -u 'Asidame' -P 'lololo' &
