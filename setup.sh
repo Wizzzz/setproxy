@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# setting proxy authentication
-username = 'Asidame'
-password = 'yolololo'
-
 # installing required library
 sudo apt-get update
 sudo apt-get install make -y
