@@ -9,4 +9,4 @@ sudo apt-get install gcc -y
 git clone https://github.com/rofl0r/microsocks.git
 cd microsocks
 make
-nohup ./microsocks -p 3129 -u 'Asidame' -P 'lololo' &
+nohup ./microsocks -p 8769 -u 'Asidame' -P 'lololo' &
